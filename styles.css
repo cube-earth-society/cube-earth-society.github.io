@@ -10,6 +10,7 @@ body {
    grid-template-columns: 100%;
    justify-content:  center;
    height: 100vh;
+   font-family: Helvetica;
    box-shadow: inset 8px 8px 8px #262626,
                inset -8px -8px 8px #262626;
 }
@@ -17,11 +18,12 @@ body {
 .welcome {
    background-color: #fff;
    margin: 25px auto;
-   width: 80%;
+   width: 70%;
    border-radius: 3%;
    background-image: url("Images/space.gif");
    background-size: cover;
    color: #fff;
+   padding: 25px;
    box-shadow: 8px 8px 12px #262626,
                -8px -8px 12px #262626;
 }

@@ -1,0 +1,18 @@
+html, body {
+   padding: 0;
+   margin: 0;
+}
+
+body {
+   text-align: center;
+   background-color: whitesmoke;
+}
+
+.welcome {
+   background-color: #fff209;
+   width: 80%;
+   box-shadow: 5px 5px #262626,
+            5px -5px #262626,
+            -5px 5px #262626,
+            -5px -5px #262626;
+}

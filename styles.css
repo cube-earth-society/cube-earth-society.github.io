@@ -6,10 +6,13 @@ html, body {
 body {
    text-align: center;
    background-color: whitesmoke;
+   display: grid;
+   grid-template-columns: 50% 50%;
 }
 
 .welcome {
    background-color: #fff209;
+   margin: 15px;
    width: 80%;
    box-shadow: 5px 5px #262626,
             5px -5px #262626,

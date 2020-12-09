@@ -12,23 +12,6 @@ body {
    height: 100vh;
 }
 
-.ohhhh {
-   margin: auto;
-   height: 80px;
-   width: 80px;
-   border-radius: 50%;
-   box-shadow:
-            8px 8px 5px yellow,
-            inset -8px -8px 5px yellow,
-            -8px 8px 5px blue,
-            inset 8px -8px 5px blue,
-            8px -8px 5px green,
-            inset -8px 8px 5px green,
-            -8px -8px 5px red,
-            inset 8px 8px 5px red;
-   animation: rotate 2s infinite linear;
-}
-
 .welcome {
    background-color: #fff209;
    margin: 15px auto;
@@ -37,14 +20,4 @@ body {
             5px -5px #262626,
             -5px 5px #262626,
             -5px -5px #262626;
-}
-
-@keyframes rotate {
-   from {
-      transform: rotateZ(0deg);
-   }
-
-   to {
-      transform: rotateZ(360deg);
-   }
 }
